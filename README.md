@@ -1,3 +1,31 @@
+# Projeto Final de BS5: Site de Restaurante (Senac) 🍽️🍖🍕🍺
+
+## Descrição do Projeto
+
+Este é o meu projeto final desenvolvido para o curso, onde criei um site completo para um restaurante utilizando **Bootstrap 5**. O tema é livre, e a proposta é proporcionar uma experiência visual e funcional aos usuários, refletindo a identidade e os serviços do restaurante.
+
+## Funcionalidades
+
+O site conta com um tota de **dez páginas**, incluindo:
+
+- **Home:** Apresenta um banner rotativo (carousel) com imagens do restaurante e destaques dos pratos.
+- **Sobre:** Uma descrição do restaurante, sua história e missão.
+- **Churrascaria:** Detalhes sobre o cardápio de carnes e horários.
+- **Galeteria:** Informações sobre os pratos de galeto e horários.
+- **Pizzaria:** Destaques das pizzas oferecidas e horários.
+- **Boteco:** Apresentação das bebidas e petiscos disponíveis.
+- **Tele-Entrega:** Informações sobre o serviço de entrega e como solicitar.
+- **Espaço de Eventos:** Detalhes sobre o espaço para eventos, incluindo capacidade e serviços oferecidos.
+- **Promoções:** Ofertas e descontos especiais disponíveis para os clientes.
+- **Contato:** Um formulário de contato para feedback e dúvidas.
+
+## Tecnologias Utilizadas
+
+- **Bootstrap 5:** Para o design responsivo e moderno do site.
+- **HTML5:** Estruturação do conteúdo.
+- **CSS3:** Estilização e personalização do layout.
+- **JavaScript:** Interatividade, como animações e validações de formulários.
+
 ![1](https://github.com/user-attachments/assets/08f9a3c4-d70e-48d3-a2b6-a639e4bbcccc)
 ![2](https://github.com/user-attachments/assets/e34ea5bc-2d2d-46c2-a502-2303a1c30516)
 ![3](https://github.com/user-attachments/assets/22377b0d-b266-4dc2-a08c-0b7d9ca42a3f)
