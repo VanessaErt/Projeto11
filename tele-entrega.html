@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-7Gpm8pK4jjS85HUXkR5PtmPHL3yMfFgMK20PHw7Fd0pS96AWeB3myKt98Munm7J0fs6xLsAnLu53JvpW03osRw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="js/scripts.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/delivery.js"></script>
+    <title>Restaurante Sabor e Brasa</title>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" style="padding: 0px;">
+                <img src="img/logo.png" alt="Logo" style="max-width: 150px; height: auto;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="churrascaria.html">Churrascaria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeteria.html">Galeteria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pizzaria.html">Pizzaria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="boteco.html">Boteco</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="tele-entrega.html">Tele-entrega</a></li>
+                    <li class="nav-item"><a class="nav-link" href="espaco-eventos.html">Espaço de Eventos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="promocoes.html">Promoções</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            
+            <div class="navbar-social-links ms-auto">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://api.whatsapp.com/send?phone=5551995987877"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </div>    
+    </nav> 
+
+    <!-- Conteúdo Principal -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row">
+            <div class="col-md-12 p-0">
+                <div class="delivery imagem-100">
+                    <img src="img/tele-entrega/banner tele-entrega.png" alt="Banner 1">
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <div class="container-delivery fluid">
+        <div class="row text-center">
+          <div class="col-md-3">
+            <h2>KIT CHURRASCO</h2>
+            <p>PORÇÕES PARA 2 PESSOAS</p>
+            <button class="btn btn-primary" onclick="toggleDescription('desc-churrasco')">Ver detalhes</button>
+            <div id="desc-churrasco" class="delivery-description">
+                <ol>
+                    <li><strong>Kit Alcatra-</strong> 500g de alcatra, 1 porção de arroz, 1 porção de polenta frita, 1 porção de maionese, 1 porção de alface.</li>
+                    <li><strong>Kit Vazio-</strong> 500g de vazio, 1 porção de arroz, 1 porção de polenta frita, 1 porção de maionese, 1 porção de alface.</li>
+                    <li><strong>Kit Lombo-</strong> 500g de lombo com queijo, 1 porção de arroz, 1 porção de polenta frita, 1 porção de maionese, 1 porção de alface.</li>
+                    <li><strong>Kit Entrecot-</strong> 3 medalhões de entrecot, 1 porção de arroz, 1 porção de batata frita, 3 ovos fritos, 1 porção de salada mista com maionese.</li>
+                    <li><strong>Kit Costela-</strong> 500g de costela, 1 porção de arroz, 1 porção de polenta frita, 1 porção de maionese, 1 porção de alface.</li>
+                    <li><strong>Kit Picanha-</strong> 500g de picanha, 1 porção de arroz, 1 porção de polenta frita, 1 porção de maionese, 1 porção de alface.</li>
+                    <li><strong>Kit Filé c/ bacon-</strong> 500g de filé com bacon, 1 porção de arroz, 1 porção de polenta frita, 1 porção de maionese, 1 porção de alface.</li>
+                    <li><strong>Churrasco por Kg-</strong> Picanha, costela, alcatra, ovelha, vazio ou filé com bacon. Pedido mínimo de 1/2 Kg.</li>
+                  </ol>
+              </div>
+              
+          </div>
+          <div class="col-md-3">
+            <h2>KIT GALETO</h2>
+            <p>PORÇÕES PARA 2 PESSOAS</p>
+            <button class="btn btn-primary" onclick="toggleDescription('desc-galeto')">Ver detalhes</button>
+            <div id="desc-galeto" class="delivery-description">
+              <p>6 pedaços de galeto, 10 pedaços de polenta, 1 porção de
+                massa com molho (a escolher), 1 porção de maionese,
+                1 porção de radiche com bacon.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h2>KIT ESPECIAL</h2>
+            <p>PORÇÕES PARA 3 PESSOAS</p>
+            <button class="btn btn-primary" onclick="toggleDescription('desc-especial')">Ver detalhes</button>
+            <div id="desc-especial" class="delivery-description">
+              <p>Filé na chapa, 1 porção de arroz, 1 porção de batata frita, 3 ovos
+                fritos, 1 porção de maionese, 1 porção de salada mista.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h2>PIZZAS</h2>
+            <p>SALGADAS E DOCES</p>
+            <button class="btn btn-primary" onclick="toggleDescription('desc-pizzas')">Ver detalhes</button>
+            <div id="desc-pizzas" class="delivery-description">
+                <h2>PIZZAS SALGADAS</h2>
+                <h3>GRANDE (3 sabores)</h3>
+                <ol>
+                  <li><strong>A Moda Pizzaiolo:</strong> Calabresa, Alho, Cebola, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Bahiana:</strong> Calabresa, Azeitona, Cebola, Ovo, Pimenta, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Baresa:</strong> Calabresa, Presunto, Cebola, Ovo, Pimentão, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Basca:</strong> Bacon, Cebola, Tomate, Catupiry, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Calabresa:</strong> Calabresa, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Canadense:</strong> Bacon, Milho, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Cebola na manteiga:</strong> Cebola, Manteiga, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Copa:</strong> Copa, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Copa Cheedar:</strong> Copa, Cheddar, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Coração:</strong> Coração de Frango, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Estrogonofe de Carne:</strong> Filé, Creme de Leite, Champignon, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Estrogonofe de Carne Com Batata Palha:</strong> Filé, Creme de Leite, Champignon, Batata Palha, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Estrogonofe de Frango:</strong> Frango, Creme de Leite, Champignon, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Estrogonofe de Frango Com Batata Palha:</strong> Frango, Creme de Leite, Champignon, Batata Palha, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Familia Baggegio:</strong> Champignon, Calabresa, Cebola, Pimentão, Ovo, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Filé:</strong> Filé, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Filé com alho:</strong> Filé, Alho, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Filé com Bacon:</strong> Filé, Bacon, Queijo Mussarela, molho de Tomate e Orégano.</li>
+                  <li><strong>Filé Com Batata Palha:</strong> Filé, Batata Palha, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Filé Com Cebola:</strong> Filé, Cebola, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Filé com Cheddar:</strong> Filé, Queijo Cheddar, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Frango:</strong> Frango, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Frango Americano:</strong> Frango, Milho, Catupiry, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Frango Com Bacon:</strong> Frango, Bacon, Cebola, Queijo Parmesão, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Frango Com Catupiry:</strong> Frango, Catupiry, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Frango Com Cheedar:</strong> Frango, Cheedar, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Gauchinha:</strong> Coração de Frango, Bacon, Alho, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Itália:</strong> Frango, Rodelas de Tomate, Queijo Gorgonzola, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Italianinha:</strong> Salame Italiano, Pimentão, Cebola, Champignon, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Lombo Com Catupiry:</strong> Lombo Defumado, Catupiry, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Lombo Com Provolone:</strong> Lombo Defumado, Queijo Provolone, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Lombo Defumado:</strong> Lombo Defumado, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Mafiosa:</strong> Calabresa, Palmito, Azeitona, Alho, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Mazini:</strong> Queijo Mussarela, Presunto, Catupiry, Molho de Tomate e Orégano.</li>
+                  <li><strong>Moda da casa:</strong> Lombo Defumado, Champignon, Catupiry, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Moda Primavera:</strong> Copa, Tomate Cereja, Queijo Gorgonzola, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Palmito Com Bacon:</strong> Palmito, Bacon, Cebola, Queijo Parmesão, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Peperone:</strong> Pepperoni, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Picanha:</strong> Picanha, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Portuguesa:</strong> Queijo Mussarela, Presunto, Ovo, Cebola, Pimentão, Azeitona Fatiada e Orégano.</li>
+                  <li><strong>Presunto:</strong> Presunto, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Salame Italiano:</strong> Salame Italiano, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Siciliana:</strong> Calabresa, Cebola, Azeitona, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Toscana:</strong> Calabresa, Ovo, Azeitona, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                  <li><strong>Tropical:</strong> Lombo Defumado, Abacaxi, Catupiry, Queijo Mussarela, Molho de Tomate e Orégano.</li>
+                </ol>
+
+                <h2>PIZZAS DOCES</h2>
+                <h3>MÉDIA (2 sabores) | GRANDE (3 sabores)</h3>
+                <ol>
+                    <li><strong>Banana Com Gemada:</strong> Banana e Gemada.</li>
+                    <li><strong>Abacaxi C/ Choc Branco:</strong> Abacaxi, Chocolate Branco e Leite Condensado.</li>
+                    <li><strong>Banana C/ Canela:</strong> Banana, Canela em pó, Queijo Mussarela e Leite Condensado.</li>
+                    <li><strong>Banana C/ Doce De Leite:</strong> Doce de Leite, Banana e Queijo Mussarela.</li>
+                    <li><strong>Califórnia:</strong> Abacaxi, Cereja, Figo, Pêssego, Queijo Mussarela e Doce de Leite.</li>
+                    <li><strong>Califórnia Com Chocolate Branco:</strong> Abacaxi, Cereja, Figo, Pêssego, Chocolate Branco, Queijo Mussarela e Leite Condensado.</li>
+                    <li><strong>Capuccino:</strong> Café em pó, Chocolate Preto e Doce de Leite.</li>
+                    <li><strong>Charge:</strong> Chocolate Preto, Amendoim Torrado e Leite Condensado.</li>
+                    <li><strong>Chocolate Branco:</strong> Chocolate Branco e Leite Condensado.</li>
+                    <li><strong>Chocolate Branco / M&M's:</strong> Chocolate Branco, M&M’s e Leite Condensado.</li>
+                    <li><strong>Chocolate Branco C/ Morango:</strong> Chocolate Branco, Morango e Leite condensado.</li>
+                    <li><strong>Chocolate Branco C/ Sorvete:</strong> Chocolate Branco, Leite Condensado e Sorvete.</li>
+                    <li><strong>Chocolate Mesclado:</strong> Chocolate Branco, Chocolate Preto e Leite Condensado.</li>
+                    <li><strong>>Chocolate Mesclado C/ M&M's:</strong> Chocolate Preto, Chocolate Branco, M&M's e Leite Condensado.</li>
+                    <li><strong>Chocolate Preto:</strong> Chocolate Preto e Leite Condensado.</li>
+                    <li><strong>Chocolate Preto C/ M&M's:</strong> Chocolate Preto, M&M’s e Leite Condensado.</li>
+                    <li><strong>Chocolate Preto C/ Morango:</strong> Chocolate Preto, Morango e Leite Condensado.</li>
+                    <li><strong>Chocolate Preto C/ Sorvete:</strong> Chocolate Preto, Leite Condensado e Sorvete.</li>
+                    <li><strong>Moda da Casa Doce:</strong> Banana, Nozes, Chocolate Branco, Leite condensado.</li>
+                    <li><strong>Morango Com Merengue:</strong> Morango e Merengue.</li>
+                    <li><strong>Negresco:</strong> Chocolate Branco, Negresco Esfarelada e Leite Condensado.</li>
+                    <li><strong>Nutella:</strong> Nutella.</li>
+                    <li><strong>Pé De Moléque:</strong> Amendoim Torrado e Doce de leite.</li>
+                    <li><strong>Prestígio:</strong> Chocolate Preto, Coco Ralado e Leite Condensado.</li>
+                    <li><strong>Sonho de Valsa:</strong> Chocolate Branco, Amendoim Torrado e Doce de Leite.</li>
+                  </ol>
+              </div>
+          </div>
+        </div>
+    </div>
+          
+    <!-- Footer -->
+    <footer class="container-fluid-footer">
+        <div class="row mt-3 text-center">
+            <div class="col-md-4">
+                <h3>Localização</h3>
+                <p>Endereço: Rua Exemplo, 123, Bairro, Cidade</p>
+                <a href="https://maps.google.com/?q=Endereço+do+Estabelecimento" target="_blank">Ver no Google Maps</a>
+            </div>
+            <div class="col-md-4">
+                <h3>Contato</h3>
+                <p>Tele-entrega: (XX) XXXX-XXXX</p>
+                <p>Reservas e Eventos: (XX) XXXX-XXXX</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Horário de Atendimento</h3>
+                <p><strong>ALMOÇO</strong></p>
+                <p>Terça a Sexta: das 11h às 14h30</p>
+                <p>Sábado: das 11h às 15h</p>
+                <p>Domingo: das 11h às 15h30</p>
+                <p><strong>JANTA</strong></p>
+                <p>Terça a Sábado: das 19h às 23h</p>
+                <a href="contato.html">Entre em contato</a>
+            </div>
+        </div>
+    </footer>        
+</body>
+</html>

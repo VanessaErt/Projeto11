@@ -1,0 +1,896 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Estilo carousel home-conteudo principal */
+#carousel-home {
+    position: relative;
+    background-color: #F29F05;
+    width: 100%;
+}
+
+/* Estilo das imagens do carrossel */
+.carousel-item img {
+    width: 100%;
+    height: auto; 
+}
+
+/* Estilo das setas dos controles Carousel HOME*/
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath d='M11.5 3.5a.5.5 0 0 0-.854-.354l-5 5a.5.5 0 0 0 0 .708l5 5a.5.5 0 0 0 .708-.708L6.707 8l4.647-4.646A.5.5 0 0 0 11.5 3.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath d='M4.5 3.5a.5.5 0 0 1 .854-.354l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L9.293 8l-4.647-4.646A.5.5 0 0 1 4.5 3.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%; 
+}
+
+/* Estilo dos indicadores do carousel HOME  */
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: 0.5;
+    margin: 0 3px;
+    cursor: pointer;
+    transition: opacity 0.6s ease;
+}
+
+.carousel-indicators .active {
+    background-color: #A61C28;
+    opacity: 1;
+}
+/* ^^^^^ FIM DO ESTILO CAROUSEL HOME ^^^^^ */
+
+
+/* Estilo Descrição dos restaurantes  */
+.container-descricao {
+    background-color: #A61C28;
+    width: 100%;
+    height: auto;
+}
+
+.button-container .btn{
+    display: flex;
+    gap: 10px;
+    justify-content: center; 
+    margin-top: 70px;
+    padding: 5px 10px; 
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 25px; 
+    font-family: 'Roboto', sans-serif; 
+    text-align: center; 
+}
+
+/* Estilos padrão para cada botão da Descrição dos restaurantes*/
+.container-descricao {
+    background-color: #A61C28;
+}
+
+.button-container .btn {
+    font-size: 25px; 
+    padding: 5px 80px; 
+    margin-right: 20px; 
+    margin-bottom: 10px; 
+}
+
+.button-container .button-churrascaria {
+    background-color: #bf1c2a;
+    color: white;
+}
+
+.button-container .button-galeteria {
+    background-color: #EB5A17;
+    color: white;
+}
+
+.button-container .button-pizzaria {
+    background-color: #43A633;
+    color: white;
+}
+
+.button-container .button-boteco {
+    background-color: #F29F05;
+    color: white;
+}
+
+.button:hover {
+    opacity: 0.7; 
+}
+
+/* Estilos para o ícone da Descrição dos restaurantes*/
+.arrow {
+    font-size: 48px; 
+    color: rgba(0, 0, 0, 0.5); 
+    cursor: pointer; 
+    transition: transform 0.3s ease, color 0.3s ease; 
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.arrow:hover {
+    transform: translateY(10px);  
+    color: rgba(0, 0, 0, 0.8); 
+}
+
+
+/* Estilo para Restaurantes-index*/
+.container-fluid-restaurantes {
+    max-width: 100%;
+    padding: 0;
+    background-color: #F29F05;
+    overflow: hidden; 
+}
+
+.container-fluid-restaurantes h1 {
+    color: #63380E;
+    padding-top: 40px;
+    font-family: "Roboto", sans-serif;
+}
+
+.image-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-wrapper img {
+    transition: transform 0.3s ease;
+}
+
+/* Efeito de zoom ao passar o mouse */
+.image-wrapper:hover img {
+    transform: scale(1.1);
+}
+
+/* Estilo para a descrição sobre a imagem */
+.description {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* Estilo Faça seu evento no Sabor e Brasa */
+.background-image .container {
+    background-color: rgba(67, 166, 51, 0.7); 
+    width: 35%;
+}
+
+.background-image h2 {
+    color: #F29F05;
+    font-size: 40px; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+    text-align: center;
+    margin-top: 50px;
+}
+
+.background-image p {
+    color: white; 
+    font-size: 18px; 
+}
+
+.background-image {
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 18px;
+    transition: background-color 0.3s ease; 
+}
+
+.background-image .btn:hover {
+    background-color: #990000;
+}
+.btn-responsive {
+    font-size: 16px;
+    padding: 10px 20px;
+    white-space: nowrap;
+}
+
+
+/* Estilo Promoção Aniversariante  */
+.container-fluid-aniversariante {
+    background-color: #F29F05; 
+}
+
+.container-fluid-aniversariante h2 {
+    padding-top: 40px;
+    text-align: center;
+    margin-top: 20px;
+    color: #512e01;
+    font-size: 2.5rem;
+}
+
+.container-fluid-aniversariante p {
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.container-fluid-aniversariante label {
+    font-size: 1.1rem;
+    color: #7b4602;
+}
+
+.container-fluid-aniversariante input[type="text"],
+.container-fluid-aniversariante input[type="email"],
+.container-fluid-aniversariante input[type="date"] {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ced4da; 
+    border-radius: 4px; 
+    font-size: 16px; 
+}
+
+.container-fluid-aniversariante button {
+    background-color: white;
+    color: #F29F05;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid transparent; 
+    white-space: nowrap;
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
+}
+
+.container-fluid-aniversariante button:hover {
+    background-color: rgba(225, 140, 60, 0.5); 
+    border-color: white; 
+    color: white; 
+}    
+
+.container-fluid-aniversariante .mt-1 p {
+    font-size: 14px; 
+}
+
+/* Estilos da Página SOBRE */
+#restaurant-container {
+    background-color: #F29F05; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#restaurant-container img {
+    max-width: 70%;
+    height: auto;
+    flex: 1; 
+    text-align: left;
+    padding-top: 50px;
+}
+
+/* Estilos para o título do restaurante */
+.restaurant-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #7b4602;
+    text-align: center;
+    margin-right: 50px;
+    padding-top: 40px;
+}
+
+/* Estilos para a descrição do restaurante */
+.restaurant-description {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #7b4602;
+    flex: 1; 
+    padding: 20px;
+    text-align: justify; 
+    margin-right: 50px; 
+    padding-bottom: 40px;
+}
+
+/* Estilo do carousel da página sobre */
+.carousel-container {
+    background-color: #A61C28;
+    width: 100%;
+    height: auto;
+}
+
+#carouselExampleControls {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.sobre-item {
+    transition: transform 0.6s ease;
+}
+
+.carousel-item img {
+    max-height: 600px;
+    object-fit: cover;
+}
+
+/* Estilos para os controles de navegação */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Estilos para os indicadores */
+.carousel-indicators {
+    bottom: 10px;
+}
+
+.carousel-indicators li {
+    background-color: #000;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+}
+/* ^^^^ FIM DO CAROUSEL DA PÁGINA SOBRE ^^^^ */
+
+
+/* Estilo da pagina churrascaria */
+#churrascaria-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row-churrascaria {
+    background-color: #A61C28;
+}
+
+.churrascaria-texto {
+    background-color: #A61C28;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.churrascaria-texto p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Estilo da pagina galeteria */
+#galeteria-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row-galeteria{
+    background-color: #A61C28;
+}
+
+.galeteria-texto {
+    background-color: #A61C28;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.galeteria-texto p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Estilo da pagina pizzaria */
+#pizzaria-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row-pizzaria{
+    background-color: #A61C28;
+}
+
+.pizzaria-texto {
+    background-color: #A61C28;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.pizzaria-texto p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Estilo da pagina boteco */
+#boteco-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row-boteco {
+    background-color: #A61C28;
+}
+
+.boteco-texto {
+    background-color: #A61C28;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.boteco-texto p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+    
+/* Estilo para a página de tele-entrega INICIO*/
+.delivery {
+    text-align: center;
+}
+
+.delivery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+
+/* Estilo para os containers de descrição da página de tele-entrega */
+.container-delivery {
+    background-color: #F29F05;
+    width: 100%;
+    height: auto;
+}
+
+.container-delivery h2 {
+    color: #63380E;
+    margin-top: 100px;
+}
+
+.container-delivery p {
+    color: #9A191E; 
+    font-size: large;
+}
+
+.btn-primary {
+    background-color: white;
+    color: #F29F05;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid transparent; 
+    white-space: nowrap;
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
+    margin-bottom: 100px;
+}
+
+.btn-primary:hover {
+    background-color: rgba(225, 140, 60, 0.5); 
+    border-color: white; 
+    color: white; 
+}
+
+.delivery-description {
+    display: none;
+    margin-top: 10px;
+}
+
+.delivery-description p {
+    color: #633900; 
+    font-size: large;
+}
+
+.delivery-description h2 {
+    color: #633900; 
+    margin-top: 0%;
+
+}
+
+.delivery-description h3 {
+    color: #633900; 
+
+}
+
+.delivery-description ol {
+    list-style-type: decimal; 
+    text-align: left; 
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.delivery-description li {
+    color: #633900; 
+    font-size: large;
+}
+/* Estilo para a página de tele-entrega FIM*/
+
+
+/* Estilo para a página ESPAÇO DE EVENTOS*/
+#eventos-container {
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    color: #713803;
+    margin-bottom: 20px;
+}
+  
+  /* Estilos para a linha de eventos */
+#eventos-row {
+    margin-bottom: 20px;
+}
+  
+#eventos-col {
+    padding: 15px; 
+}
+
+.eventos-title {
+    color: #F29F05; 
+    font-size: 35px; 
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
+  
+.eventos-text {
+    color: #63380E; 
+    font-size: 18px; 
+    line-height: 1.6; 
+    word-wrap: break-word;
+}
+
+/* Estilos para a estrutura */
+.estrutura {
+    width: 100%;
+    height: auto;
+    background-color: #A61C28;
+}
+
+.estrutura img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+/* Estilos para a galeria de fotos */
+.galeria {
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.galeria h2 {
+    color: #F29F05;
+    margin-bottom: 30px;
+}
+
+.galeria .row {
+    justify-content: center;
+}
+
+.galeria img {
+    margin-bottom: 15px;
+}
+
+/* Estilos para a seção de orçamento */
+.container-fluid-orcamento {
+    width: 100%;
+    height: auto;
+    background-color: #F29F05; 
+}
+
+.container-fluid-orcamento h2 {
+    color: #63380E;
+    padding-top: 50px;
+}
+
+.orcamento-form .form-label {
+    color: #63380E; 
+}
+
+.orcamento-form .form-control {
+    margin-bottom: 20px; 
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+
+.orcamento-form .btn {
+    background-color: white;
+    color: #F29F05;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    white-space: nowrap;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.orcamento-form .btn:hover {
+    background-color: #F29F05;
+    color: white;
+}
+
+/* Estilo para a página de promoções*/
+.container-promocao {
+    width: 100%;
+    height: auto; 
+    background-color: #F29F05;
+    padding: 20px;
+    text-align: center;
+    color: #63380E; 
+}
+
+.container-promocao h1 {
+    margin-bottom: 20px;
+}
+
+.promo-container {
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    width: 80%;
+    height: auto;
+    text-align: center; 
+    display: inline-block;
+}
+
+.promo-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo da pagina contato */
+.contato-section {
+    background-color: #F29F05;
+    color: white;
+    padding: 40px 0;
+}
+
+.contato-section h2, .contato-section h4 {
+    color: #834600;
+}
+
+.contato-section p {
+    color: white;
+    font-size: 1.1em;
+}
+
+.contato-section p .numero {
+    color: white;
+}
+
+.contato-section .form-control, .contato-section .btn {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+
+.contato-section .form-label {
+    color: #834600;
+}
+
+.contato-section .btn {
+    background-color: white;
+    color: #F29F05;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    white-space: nowrap;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.contato-section .btn:hover {
+    background-color: #F29F05;
+    color: white;
+}
+
+.contato-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Estilo do Footer somente da pagina de contato*/
+footer h5 {
+    font-size: 1.5em; 
+}
+footer h6 {
+    font-size: 1.2em; 
+}
+
+
+/* Estilo do Footer */
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #A61C28;
+    color: white;
+    text-align: center;
+    padding: 10px 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .row {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 40px;
+
+}
+
+footer .col-md-4 {
+    flex: 1;
+    min-width: 0; 
+}
+
+footer h3 {
+    font-size: 1.5rem; 
+    margin-bottom: 5px;
+}
+
+footer p {
+    font-size: 1rem; 
+    margin-bottom: 5px; 
+}
+
+footer a {
+    display: inline-block;
+    margin-top: 5px;
+    background-color: white;
+    color: #F29F05;
+    padding: 5px 10px; 
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    white-space: nowrap;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    font-size: 1rem; 
+}
+
+footer a:hover {
+    background-color: rgba(225, 140, 60, 0.5);
+    border-color: white;
+    color: white;
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 767px) {
+    .btn-responsive {
+        font-size: 14px;
+        padding: 8px 16px;
+        white-space: nowrap;
+        max-width: 100%; 
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+    }
+
+    .background-image h2 {
+        font-size: 24px;
+    }
+
+    .background-image p {
+        font-size: 14px;
+    }
+
+    .container-fluid-aniversariante h2 {
+        font-size: 1.5rem;
+    }
+    .container-fluid-aniversariante p {
+        font-size: 0.875rem;
+    }
+    .container-fluid-aniversariante form .form-label {
+        font-size: 0.875rem;
+    }
+    .container-fluid-aniversariante form .form-control {
+        font-size: 0.875rem;
+    }
+    .container-fluid-aniversariante form button {
+        font-size: 0.875rem;
+        padding: 8px 16px;
+        width: 100%; 
+    }
+    footer {
+        text-align: center;
+    }
+    
+    footer .col-md-4 {
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    footer a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .col-md-4 {
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    .footer a.btn {
+        width: 100%;
+    }
+}
+
+/* Ajustes para telas extra pequenas */
+@media (max-width: 575px) {
+    .btn-responsive {
+        font-size: 12px;
+        padding: 6px 12px;
+        white-space: nowrap;
+        max-width: 100%;
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+    }
+
+    .background-image h2 {
+        font-size: 20px;
+    }
+
+    .background-image p {
+        font-size: 12px;
+    }
+
+    .container-fluid-aniversariante form button {
+        width: 80%; 
+    }
+
+    footer .container {
+        padding: 0 10px;
+    }
+    
+    footer a {
+        font-size: 0.7rem; 
+        padding: 10px 0;
+    }
+
+    .footer .container {
+        padding: 0 10px;
+    }
+    
+    .footer a.btn {
+        font-size: 0.875rem; 
+        padding: 8px 10px; 
+    }
+}

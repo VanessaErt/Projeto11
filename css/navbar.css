@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.navbar {
+    padding-bottom: 0 !important; 
+    padding-top: 0 !important;
+}
+
+#container-navbar {
+    margin-bottom: 0 !important; 
+    padding-bottom: 0 !important; 
+}
+
+/* Container do navbar */
+.navbar .container-fluid {
+    background-color: #A61C28;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.navbar-nav .nav-item a.nav-link {
+    font-size: 20px;
+}
+
+/* Alinhamento do logo */
+.navbar-brand {
+    padding-bottom: 0 !important;
+}
+
+.navbar-brand img {
+    transition: transform 0.3s ;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.5);
+}
+
+/* Estilização dos links */
+.nav-link.active {
+    color: #FFFFFF !important; 
+    border-bottom: 4px solid #F2911B; 
+    background-color: #D9534F; 
+}
+
+.navbar-social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    color: #FFFFFF; 
+    text-decoration: none;
+    transition: color 0.3s, background-color 0.3s; 
+    font-size: 18px; 
+}
+
+.nav-link:hover {
+    color: #F2911B; 
+}
+
+/* Ícones de redes sociais */
+.nav-link .fab {
+    font-size: 1.5em;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left; 
+    }
+    .navbar-social-links {
+        display: flex;
+        justify-content: center;
+    }
+}
